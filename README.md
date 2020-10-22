@@ -21,10 +21,5 @@ Details of the check in Whoops Monitor configuration tab or for the `.env` file.
 WM_WEBHOOK_URL=http://...
 ```
 
-
-## Shared variables
-Every check will receive these variables to work with:
-
- - `WM_CHECK_NAME`, name of the check you entered in monitor.
- - `WM_CHECK_EXIT_CODE`, ok (0), warning (1) or critical (2).
- - `WM_CHECK_OUTPUT`, output related to the check result.
+## Alert specification
+Please read further details in the [alert docs](https://github.com/whoopsmonitor/whoopsmonitor/blob/master/docs/custom-alert.md).
