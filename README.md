@@ -20,6 +20,3 @@ Details of the check in Whoops Monitor configuration tab or for the `.env` file.
 ```yaml
 WM_WEBHOOK_URL=http://...
 ```
-
-## Alert specification
-Please read further details in the [alert docs](https://github.com/whoopsmonitor/whoopsmonitor/blob/master/docs/custom-alert.md).
